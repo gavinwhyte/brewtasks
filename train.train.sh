@@ -1,9 +1,9 @@
 #!/bin/bash
-BASEDIR="/Users/andy/Brew_Projects/Python_Projects/BrewAIWeb/"
-PYLOC="/Users/andy/anaconda3/envs/brewcore/bin/python"
+# BASEDIR="/Users/andy/Brew_Projects/Python_Projects/BrewAIWeb/"
+# PYLOC="/Users/andy/anaconda3/envs/brewcore/bin/python"
 
-# BASEDIR="/home/brewai/"
-# PYLOC="/home/brewai/anaconda3/envs/brewcore/bin/python"
+BASEDIR="/home/brewai/"
+PYLOC="/home/brewai/anaconda3/envs/brewcore/bin/python"
 
 FOLDER="brewcore"
 
