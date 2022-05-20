@@ -1,9 +1,8 @@
 #!/bin/bash
-# BASEDIR="/Users/andy/Brew_Projects/Python_Projects/BrewAIWeb/"
-# PYLOC="/Users/andy/anaconda3/envs/brewcore/bin/python"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+BASEDIR="$(dirname "$SCRIPT_DIR")"
 
-BASEDIR="/home/brewai/"
-PYLOC="/home/brewai/anaconda3/envs/brewcore/bin/python"
+PYLOC="${BASEDIR}anaconda3/envs/brewcore/bin/python"
 
 FOLDER="brewcore"
 
